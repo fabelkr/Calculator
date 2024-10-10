@@ -42,7 +42,7 @@ If you pressed "2" in the start, you are going to convert numbers. I dont think 
 ## Side features
 
 - It doesnt matter whether you enter the expression with or without spaces or tabs
-- The final result is <span style="color: green;">green<span>
+- The final result is <span style="color: green;">green</span>
 - It doesnt matter, if you use "ans", "ANS", "aNS" (the inputs simply are not case       sensitive) -> the same goes for "pi" input
 - I tried to learn and use README.md file...So mabey +1 point?? :D
 
