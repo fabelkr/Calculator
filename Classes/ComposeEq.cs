@@ -32,11 +32,11 @@ namespace Calculator.Classes
                         i++;
                     }
                     i--;
-                }else if(input[i] == 'a' && input[i + 1] == 'n' && input[i + 2] == 's')
+                }else if(char.ToLower(input[i]) == 'a' && char.ToLower(input[i + 1]) == 'n' && char.ToLower(input[i + 2]) == 's')
                 {
                     numbers.Add((logic.ans, i));
                     i += 2;
-                }else if(input[i] == 'p' && input[i + 1] == 'i')
+                }else if(char.ToLower(input[i]) == 'p' && char.ToLower(input[i + 1]) == 'i')
                 {
                     numbers.Add((Math.PI, i));
                     i++;
