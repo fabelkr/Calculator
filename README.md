@@ -48,10 +48,4 @@ If you pressed "2" in the start, you are going to convert numbers. I dont think 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourproject.git
-
-# Navigate to the project directory
-cd yourproject
-
-# Install dependencies
-npm install
+git clone https://github.com/fabelkr/Calculator.git
