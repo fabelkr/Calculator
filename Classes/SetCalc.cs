@@ -11,7 +11,7 @@ namespace Calculator.Classes
             ComposeEq ComposeEq = new ComposeEq();
 
             Convertor conv = new Convertor();
-        public void run()
+        public void Run()
         {
 
             //setting UI
@@ -27,14 +27,14 @@ namespace Calculator.Classes
                     string input = Console.ReadLine() ?? string.Empty;
                     if(input == string.Empty){
                         Console.WriteLine("Invalid value, try again");
-                        run();
+                        Run();
                     }
                     input = input.Replace(" ", string.Empty);
                     input = input.Replace("\t", string.Empty);
                     //service validation checkup
                     // Console.WriteLine(input);
                     ComposeEq.EquationCompsoser(input, Logic);
-                    run();
+                    Run();
                     break;
                 case "2":
                     Console.WriteLine("\nChoose an operation:");
@@ -61,7 +61,7 @@ namespace Calculator.Classes
                         if (binary == string.Empty)
                         {
                             Console.WriteLine("Invalid input, try again.");
-                            run();
+                            Run();
                         }
                         conv.binaryToDecimal(binary);
                         break;
@@ -78,7 +78,7 @@ namespace Calculator.Classes
                         if (hexadec == string.Empty)
                         {
                             Console.WriteLine("Invalid input, try again.");
-                            run();
+                            Run();
                         }
                         conv.hexadecimalToDecimal(hexadec);
                         break;
@@ -89,7 +89,7 @@ namespace Calculator.Classes
                         if (binhex == string.Empty)
                         {
                             Console.WriteLine("Invalid input, try again.");
-                            run();
+                            Run();
                         }
                         conv.binaryToHexadecimal(binhex);
                         break;
@@ -100,7 +100,7 @@ namespace Calculator.Classes
                         if (hexabin == string.Empty)
                         {
                             Console.WriteLine("Invalid input, try again.");
-                            run();
+                            Run();
                         }
                         conv.hexadecimalToBinary(hexabin);
                         break;
@@ -116,10 +116,10 @@ namespace Calculator.Classes
                     break;
                 default:
                 Console.WriteLine("Invalid input, try again.");
-                run();
+                Run();
                 break;
             }
-            run();
+            Run();
         }
     }
 }

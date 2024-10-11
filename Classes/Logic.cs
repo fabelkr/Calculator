@@ -33,7 +33,7 @@ namespace Calculator
                         if(numbers[i + 1].Item1 == 0){
                             Console.WriteLine("You can't divide by zero, try again.");
                             SetCalc run = new SetCalc();
-                            run.run();
+                            run.Run();
                         }
                         result = numbers[i].Item1 / numbers[i + 1].Item1;
                     }

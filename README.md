@@ -6,7 +6,7 @@ In this calculator, you can use parentheses and it doesnt matter, how many of th
 f.e: "(x+y*y)+(y-z/x)/(x+y+z)" or "x+y*(x+y*(y-x))"
 In the console, you can also see the whole process, how the expression with parentheses is being solved, which is pretty interesting and looks cool.
 
-This calculator can also convert throughuout decimal, hexadecimal and binary numer formates, which can be usefull for example if you want to know color hex code and you know just its rgb value and more.
+This calculator can also convert throughuout decimal, hexadecimal and binary numer formates, which can be usefull for example if you want to know color hex code and you know just its rgb value and more. (Only non-negative numbers can be converted)
 
 If you wanted to see the proscess, how I was making myself sure if the app works, or not, I recommend you to uncomment all of the commented "//service checkups" code. It may help understanding how this app works.
 
@@ -38,6 +38,7 @@ If you pressed "2" in the start, you are going to convert numbers. I dont think 
 - Accessible last result via "ans" input
 - PI -> input == "pi"
 - Counting with negative numbers
+- Converts numbers throughout three number formates (hexadecimal, binary, decimal)
 
 ## Side features
 

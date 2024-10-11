@@ -11,7 +11,7 @@ namespace Calculator
             SetCalc calc = new SetCalc();
             Logic logic = new Logic();
 
-            calc.run();
+            calc.Run();
         }
     }
 }
